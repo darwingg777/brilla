@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "brillatlm"
-  }
+    "default": "sacrotrinity",
+    "sacrotrinity": "sacrotrinity"
+  },
+  "targets": {},
+  "etags": {}
 }

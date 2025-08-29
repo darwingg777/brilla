@@ -6,7 +6,7 @@ import { FaSignOutAlt } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import logo from '../../assets/brilla.png';
-import userDefault from '../../assets/user.png';
+import userDefault from '../../assets/OIP.webp';
 import { auth } from '../../firebase';
 import './DashboardPage.css';
 
@@ -83,6 +83,7 @@ function DashboardPage() {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link onClick={() => navigate('/servicios')}>Servicios</Nav.Link>
+              <Nav.Link onClick={() => navigate('/protegida')}>Protegida</Nav.Link>
               <Nav.Link onClick={() => navigate('/cronograma')}>Cronograma</Nav.Link>
               <Nav.Link onClick={() => navigate('/opcion1')}>Opción 1</Nav.Link>
               <Nav.Link onClick={() => navigate('/opcion2')}>Opción 2</Nav.Link>
